@@ -1,6 +1,7 @@
 # R-Programming
 
-This includes two Project-Assignments: 
+This includes: 
 
-- Project 1
-- Project 2
+- All Labs
+- Project Assignment 1
+- Project Assignment 2
