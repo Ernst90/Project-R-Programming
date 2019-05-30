@@ -137,5 +137,3 @@ collatz(17,5)
 collatz(10001)
 collatz(0.8)
 collatz(-2)
-
-
