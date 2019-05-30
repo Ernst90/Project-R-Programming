@@ -1,6 +1,7 @@
-#### Assignment 1 - Introduction to R Programming ####
+## Assignment 1 - Introduction to R Programming ####
+## GUID: 2383746W
 
-## set up directory 
+### set up directory 
 setwd("C:/Users/ernst/Desktop/Assignment1")
 
 ## Task 1 (Monte Carlo Integration) --------------------------------------------------------------------------------------
