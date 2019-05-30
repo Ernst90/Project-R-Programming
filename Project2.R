@@ -50,6 +50,7 @@ ifelse(c(f.alpha, f.beta) > c(4.46, 4.46),
 
 
 ## Task 2 (Ices Data) -------------------------------------------------------------------------------------------------------------
+
 ices <- readRDS("ices.RDS")
 
 # 1 - Replace all NA's by 0
@@ -81,6 +82,7 @@ colnames(most.abund.sub) <- c("subdivisions", "species")
 
 
 ## Task 3 (Mean Shift Algorithm)  -------------------------------------------------------------------------------------------------------------
+
 x <- readRDS("gamma.RDS")
 
 ## Set up the algorithm with a while loop
