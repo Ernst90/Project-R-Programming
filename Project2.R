@@ -1,6 +1,8 @@
-##### Introduction to R Programming - Assignment 2 ######
+## Introduction to R Programming - Assignment 2 
+## GUID: 2383746W
 
-## Task 1 ---------------------------------------------------------------------------------------------------------------
+
+## Task 1 (Matrix) ---------------------------------------------------------------------------------------------------------------
 
 # 1 - Create matrix "battery" 
 battery <- matrix(c(134.75, 57.25, 57.5, 155.75, 119.75, 198, 144, 145.75, 85.5),
@@ -47,7 +49,7 @@ ifelse(c(f.alpha, f.beta) > c(4.46, 4.46),
        c("no significant evidence for an effect of material type",  "no significant evidence for an effect of temperature"))
 
 
-## Task 2 -------------------------------------------------------------------------------------------------------------
+## Task 2 (Ices Data) -------------------------------------------------------------------------------------------------------------
 ices <- readRDS("ices.RDS")
 
 # 1 - Replace all NA's by 0
@@ -78,7 +80,7 @@ most.abund.sub <- data.frame(rownames(ices), colnames(ices)[most])
 colnames(most.abund.sub) <- c("subdivisions", "species")
 
 
-## Task 3 -------------------------------------------------------------------------------------------------------------
+## Task 3 (Mean Shift Algorithm)  -------------------------------------------------------------------------------------------------------------
 x <- readRDS("gamma.RDS")
 
 ## Set up the algorithm with a while loop
@@ -106,7 +108,7 @@ mean.shift(x, it=4)
 mean.shift(c(1,1,2), it=1)
 
 
-### Task 4 --------------------------------------------------------------------------------------------------------
+### Task 4 (Collatz Algorithm) --------------------------------------------------------------------------------------------------------
 
 ## Set up the algorithm with an for loop 
 collatz <- function(n, length=30) {
